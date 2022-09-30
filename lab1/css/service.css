@@ -1,0 +1,22 @@
+.home__subheading {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color:azure;
+}
+
+.service {
+  width: 480px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 28px;
+  color:azure;
+}
+
+.service__item {
+  margin-bottom: 15px;
+}
+
+.subservice__item {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color:deepskyblue;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.wrapper__home {
+  margin: 0 auto;
+}
+
+.home {
+  width: 100%;
+  max-width: 1480px;
+}
+
+.wrapper__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__heading {
+  font-size: 32px;
+  line-height: 48px;
+  color: red;
+  text-align: right;
+}
+
+.home__discription {
+  color: green;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: right;
+  margin: 0;
+}
