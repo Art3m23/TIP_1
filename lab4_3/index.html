@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>lab4_3</title>
+</head>
+
+<body>
+  <form action="#" class="courses">
+    <h2 class="courses__heading">Список курсов</h2>
+    <p class="coerses__discription">Выберете курс</p>
+    <ul class="courses__list list-courses">
+      <li class="list-courses__item">
+        <input type="checkbox" value="js" name="courses-item" id="js" class="courses__item">
+        <label for="js">JavaScript</label>
+      </li>
+      <li class="list-courses__item">
+        <input type="checkbox" value="html_css" name="courses-item" id="h_c" class="courses__item">
+        <label for="h_c">HTML/CSS</label>
+      </li>
+      <li class="list-courses__item">
+        <input type="checkbox" value="english" name="courses-item" id="en" class="courses__item">
+        <label for="en">English</label>
+      </li>
+    </ul>
+    <h2 class="courses__heading">Продолжительность курса</h2>
+    <p class="courses__discription">Выберете продолжительность курса</p>
+    <label for="1h">1 часа</label>
+    <input type="radio" name="hours" value="2h" id="2h" class="courses__time">
+    <label for="2h">2 часа</label>
+    <input type="radio" name="hours" value="3h" id="3h" class="courses__time">
+    <label for="3h">3 часа</label>
+    <h2 class="courses__heading">Язык курса</h2>
+    <p class="courses__discription">Выберете язык курса</p>
+    <p>
+      <select name="lang" class="courses__lang">
+        <option disabled>язык курса</option>
+        <option value="en">английский</option>
+        <option value="rus">русский</option>
+        <option value="deut">немецкий</option>
+      </select>
+    </p>
+    <input type="button" value="Расчетать стоимость обучения" class="courses__button">
+    <p>
+      <input type="text" name="sum" id="sum">
+    </p>
+    <p>
+      <input type="reset" name="reset" value="сбросить">
+    </p>
+  </form>
+  <script src="./main.js"></script>
+</body>
+
+</html>
