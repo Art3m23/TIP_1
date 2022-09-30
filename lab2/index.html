@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab2</title>
+</head>
+
+<body>
+  <a href="./task3/main.html">задание 3</a>
+  <script>
+    const lastname = prompt('Введите фамилию');
+    const sex = prompt('Введите пол');
+    const age = prompt('Введите возраст');
+    const result = confirm(`Фамилия: ${lastname}` + "\n" + `Пол: ${sex}` + "\n" + `Возраст: ${age}` + "\n" + 'Все верно?');
+    if (result) {
+      alert(`Привет! ${lastname}`);
+    } else {
+      alert('Ошибка Данных');
+    } 
+  </script>
+</body>
+
+</html>
