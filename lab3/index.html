@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab3</title>
+</head>
+
+<body>
+  <form action="#">
+    <h2>Задание 1</h2>
+    <p>A : x<input type="text" size="4" id="Ax" />, y<input type="text" size="4" id="Ay" /></p>
+    <p>B : x<input type="text" size="4" id="Bx" />, y<input type="text" size="4" id="By" /></p>
+    <p>C : x<input type="text" size="4" id="Cx" />, y<input type="text" size="4" id="Cy" /></p>
+    <p>Полощадь равна: <input type="text" size="4" id="resultTask1" onfocus="getDataTask1()"/></p>
+  </form>
+  <form action="#">
+    <h2>Задание 2</h2>
+    <p>A : x<input type="text" size="4" id="Ax2" />, y<input type="text" size="4" id="Ay2" /></p>
+    <input type="text" size="40" id="resultTask2" onselect="getDataTask2()" value="Расстояние до начала координат: "/>
+  </form>
+  <form action="#">
+    <h2>Задание 3</h2>
+    <p>первая перменная: <input type="text" size="4" id="param1" />, вторая перменная: <input type="text" size="4" id="param2" onblur="getDataTask3()"/></p>
+  </form>
+  <script src="./main.js"></script>
+</body>
+
+</html>
