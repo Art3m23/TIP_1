@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>лаб6_2</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      line-height: 32px;
+      color:gold;
+      background-color: darkcyan;
+    }
+    label {
+      margin-bottom: 10px;
+    }
+
+    input {
+      height: 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 2px solid brown;
+      background-color:cyan;
+      outline: none;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    #size {
+      margin-bottom: 20px;
+    }
+
+    input[type='text'] {
+      margin-bottom: 10px;
+    }
+
+    .button {
+      width: 120px;
+      height: 30px;
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
+
+    .description {
+      width: 620px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Задание 2</h1>
+  <p class="description">Создайте массив. Заполните его случайными значениями от А до В.
+    Значения А, В и размер массива вводятся на форме.
+    Напишите функцию filt, которая принимает функцию-предикат и массив.
+    Возвращает она массив значений, для которых предикат вернет true</p>
+  <form action="#">
+    <label for="A">Введите начало интервала</label>
+    <input type="text" name="A" id="A">
+    <label for="B">Введите конец интервала</label>
+    <input type="text" name="B" id="B">
+    <label for="B">Введите размер массива</label>
+    <input type="text" name="size" id="size">
+    <input type="button" value="Получить" class="button">
+    <label for="array">Исходный массив</label>
+    <input type="text" name="arr" id="arr">
+    <label for="array">Полученный массив</label>
+    <input type="text" name="array" id="array">
+  </form>
+  <script src="./main.js"></script>
+</body>
+
+</html>
